@@ -44,7 +44,7 @@ Implementamos uma funcionalidade de suporte ao cliente utilizando a API da OpenA
 Além da OpenAI API, também foi configurado o modelo Claude 3 Sonnet, utilizando o Amazon Bedrock para fornecer suporte adicional ao cliente. Essa integração foi feita para explorar diferentes soluções de IA disponíveis no mercado.
 
 ![Teste Bedrock](https://github.com/user-attachments/assets/f73774ff-d2ef-493f-a654-2a2762008235)
-*Figura 7: Chat de suporte ao cliente com Claude 3 Sonnet configurado via Amazon Bedrock.*
+*Figura 6: Chat de suporte ao cliente com Claude 3 Sonnet configurado via Amazon Bedrock.*
 
 ---
 
@@ -52,7 +52,7 @@ Além da OpenAI API, também foi configurado o modelo Claude 3 Sonnet, utilizand
 O deploy da aplicação foi automatizado com o uso de AWS CodePipeline e AWS CodeBuild, orquestrados pelo Terraform. Esse pipeline permite que alterações no código sejam rapidamente integradas e implantadas no ambiente de produção.
 
 ![Pipeline CI-CD](https://github.com/user-attachments/assets/915768d1-0c65-4b24-9ff6-8efe68d349d0)
-*Figura 8: Execução do pipeline de CI/CD no AWS CodePipeline.*
+*Figura 7: Execução do pipeline de CI/CD no AWS CodePipeline.*
 
 ---
 
